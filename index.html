@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 Days Collection - Store</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; background: #f4f4f4; }
+        h1 { font-size: 3rem; letter-spacing: 2px; cursor: pointer; color: #333; }
+        p { color: #666; font-size: 1.2rem; }
+    </style>
+</head>
+<body>
+    <h1 onclick="checkAdmin()">SHOP</h1>
+    <p>Welcome to 7 Days Collection! Store is live.</p>
+    <script>
+        function checkAdmin() {
+            let pin = prompt("Enter Admin PIN:");
+            if(pin === "1234") {
+                alert("Admin Mode Unlocked!");
+            }
+        }
+    </script>
+</body>
+</html>
